@@ -1,0 +1,110 @@
+:root{
+    --color_primary: #E5E5E5;
+    --color_second:  #0A3871;
+    --color_third:   #FFFFFF;
+    --color_fourth:  #000000;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color_primary);
+}
+
+
+.container {
+margin: 20px;
+display: flex;
+width: auto;
+height: auto;
+
+}
+
+h1{
+    margin: 0;
+}
+
+.logo {
+    width: 6%;
+    font-size: 40px;
+text-align: center;
+}
+
+.message_card {
+    background-color: transparent;
+    color: var(--color_second);
+    width: 60%;
+    margin: 20px 50px;
+
+}
+
+.message_card > div {
+    display: flex;
+    justify-content: center;
+
+}
+
+#message {
+    background-color: transparent;
+    color: var(--color_second);
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    height: 800px;
+    border:none;
+
+}
+
+
+.result_card {
+    background-color: var(--color_third);
+    border-radius: 10px;
+    height: 800px;
+    padding: 20px;
+}
+
+.result_card > div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#result {
+    background-color: transparent;
+    border:none;
+    color: var(--color_second);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+/*Buttons */
+
+button {
+
+    border: 1px solid var(--color_second);
+    border-radius: 15px;
+    padding: 15px 25px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#encrypt {
+    background-color: var(--color_second);
+    color: var(--color_third);
+}
+
+#decrypt {
+    background-color: transparent;
+    color: var(--color_second);
+}
+
+#copy {
+    background-color: transparent;
+    color: var(--color_second);
+}
